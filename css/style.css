@@ -1,0 +1,91 @@
+.testeGrid{
+	height: 150px;
+    background-image: url("../img/hamburger2.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 50%
+
+
+}
+#questaoTopo{
+	padding-top: 5%;
+	text-align: center; 
+}
+span.tituloQuestao {
+    font-size: 50px;
+}
+.underline{
+	text-decoration: underline;
+}
+.botoesDrop{
+	float: left;
+    width: 50%;
+}
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: .55;
+}
+#loginForm{
+    background-color: #fff;
+    height: 400px;
+    margin-top: 10%;
+    width: 300px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,.75);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.75); 
+}
+
+#cadastro{
+    background-color: #fff;
+    margin-top: 10%;
+    max-width: 600px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,.75);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.75); 
+}
+
+.linhaAbaixo{
+    width: inherit !important;
+}
+
+#bodyLogin{
+    background-color: #ff1f00;
+    background-image: url(../img/banner.png);
+    background-repeat: repeat;
+}
+#btnLogin{
+    background-color: #ff1f00;
+    width: 100%;
+}
+#btnSalvar, #btnCancelar{
+    background-color: #ff1f00;
+    width: 100%;
+}
+#lembrete{
+    padding-left: 25px;
+}
+#lembrete label:after{
+    background-color: #ff1f00;
+    border: 2px solid #ff1f00;
+}
+.senhas{
+    display: none;
+}
+.bannerCliente{
+    background-color: #434545;
+    height: 200px;
+}
+.conteudoCliente{
+    background-color: #767678;
+    height: 800px;
+}
