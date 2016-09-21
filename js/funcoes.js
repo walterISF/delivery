@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	$(".button-collapse").sideNav();
+$(".button-collapse").sideNav();
+$('select').material_select();
 $('.modal-trigger').leanModal();
 $('#push,secton').pushpin({ top:$('#push').height() });
 
