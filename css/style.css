@@ -89,3 +89,28 @@ span.tituloQuestao {
     background-color: #767678;
     height: 800px;
 }
+.iconeLista {
+    background-image: url(../img/hamburger-cliente.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    position: relative;
+    top: 30%;
+    transform: translate(30%);
+}
+.detalhesLista{
+    text-align: center;
+}
+.detalhesLista p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.itemLista{
+background-color: #fff;
+text-align: center;
+}
+
+.lblTituloLista{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
